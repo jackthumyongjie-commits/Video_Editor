@@ -1,0 +1,17 @@
+uploads/videos/*
+uploads/images/*
+uploads/audio/*
+uploads/meta/*
+uploads/thumbs/*
+!uploads/**/.htaccess
+exports/jobs/*
+exports/output/*
+logs/*.log
+
+bin/*.exe
+.cpanel-ffmpeg/
+*.tmp
+
+dist/
+desktop/**/bin/
+desktop/**/obj/

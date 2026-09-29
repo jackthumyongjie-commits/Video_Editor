@@ -1,0 +1,13 @@
+Options -Indexes
+DirectoryIndex index.php
+
+AddType text/css .css
+AddType text/javascript .js
+
+<FilesMatch "\.(css|js|png|jpe?g|webp|gif|svg|ico|woff2?)$">
+    Require all granted
+</FilesMatch>
+
+<FilesMatch "\.(log|md|json|bat|vbs|ini)$">
+    Require all denied
+</FilesMatch>
